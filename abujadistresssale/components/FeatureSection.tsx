@@ -1,10 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import lady from "./images/lady.jpg";
-import artistic from "./images/artistic.jpg";
-import woman from "./images/woman.jpg";
-import { ArrowUpRight } from "lucide-react";
+import lady from "./images/francis.jpg";
+import artistic from "./images/Professional.png";
+import woman from "./images/Call-center.png";
+import { ArrowUpRight, Locate, Mail, Phone } from "lucide-react";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Feature1() {
@@ -70,7 +71,7 @@ export default function Feature1() {
                  From identifying new market opportunities to positioning your brand for success, 
                  we turn ideas into measurable results and lasting connections.
               </p>
-              <Link href="#" className="flex gap-3 items-center mt-10">
+              <Link href="#" className="flex gap-3 items-center mt-28">
                 <div className="bg-[#FFECB3] rounded-full p-2 ">
                   <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 text-2xl" />
                 </div>
@@ -85,15 +86,30 @@ export default function Feature1() {
               <h2 className="py-5 text-4xl sm:text-5xl font-medium text-[#FFD700]">
                 Contact us
               </h2>
-              <p className="pt-4 text-base sm:text-lg text-[#FFECB3]">
-                Address: No 2, kokoma close, wuse II, Abuja
+              <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-2">
+                <span> <Locate /> </span>
+                No 2, kokoma close, wuse II, Abuja
               </p>
-               <p className="pt-4 text-base sm:text-lg text-[#FFECB3]">
-                Contact Phone Numbers: +2347010050028
+               <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-2">
+                <span> <Phone /> </span>
+                 +2347010050028
               </p>
-               <p className="pt-4 text-base sm:text-lg text-[#FFECB3]">
-                All social media handles: @abjdistresssales 
-              </p>
+           
+                 <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-2">
+                  <Link href="https://www.instagram.com/abjdistresssale/"> <FaInstagram /></Link>
+                  <Link href=""> <FaTwitter /></Link>
+                  <Link href=""> <FaFacebook /></Link>
+                 </p>
+
+                 <div className="pt-16 text-base sm:text-lg text-[#FFECB3]">
+                     <h3 className="flex items-center py-3 gap-2 text-[#FFD700] text-2xl"><Mail/> Emails</h3>
+                     <div>
+                        <p>info@abujadistresssale.com</p>
+                      <p>sales@abujadistresssale.com</p>
+                      <p>esther@abujadistresssale.com</p>
+                      <p>kenneth@abujadistresssale.com</p>
+                     </div>    
+                 </div>
             </div>
             <div className="relative flex-1 h-[50vh] sm:h-[70vh] lg:h-[80vh]">
               <Image

@@ -39,12 +39,12 @@ const Header = () => {
                 Where Strategy Meets Storytelling.
                 </h1>
 
-                <p className="text-white font-light mt-3 text-md sm:text-base max-w-xl">
+                <p className="text-white font-light mt-3 text-md sm:text-xl max-w-xl">
                     Sales, consultancy, and media crafted to elevate brands and spark real growth.
                 </p>
 
-                <Button className="mt-6 rounded-full hover:bg-[#A2EE2F]/80
-                 bg-[#A2EE2F] text-[#243C00] font-semibold flex items-center
+                <Button className="mt-6 rounded-full hover:bg-[#A2EE2F]/80 hover:text-[#064420]
+                 bg-[#064420] text-[#FFECB3] font-semibold flex items-center
                   gap-2 px-5 sm:px-7 py-3 sm:py-4 text-xs sm:text-base">
                 <Link href="#">
                     <span className="uppercase tracking-wide">
@@ -55,7 +55,7 @@ const Header = () => {
                     whileHover={{ rotate: 45 }}
                     transition={{ duration: 0.2 }}
                 >
-                    <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                    <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 cursor-pointer" />
                 </motion.div>
                 </Button>
             </div>
