@@ -120,8 +120,8 @@ export default function TestimonialsCarousel({
                   className="border-border from-secondary/20 to-card relative h-full w-fit rounded-2xl border bg-linear-to-b p-6 shadow-md backdrop-blur-sm"
                 >
                   {/* Enhanced decorative gradients */}
-                  <div className="from-primary/15 to-card absolute -top-5 -left-5 -z-10 h-40 w-40 rounded-full" />
-                  <div className="from-primary/10 absolute -right-10 -bottom-10 -z-10 h-32 w-32 rounded-full bg-linear-to-t to-transparent opacity-70 blur-xl" />
+                  <div className="from-primary/15 to-card absolute -top-5 -left-5 -z-10 h-40 w-40" />
+                  <div className="from-primary/10 absolute -right-10 -bottom-10 -z-10 h-32 w-32 " />
 
                   <motion.div
                     initial={{ opacity: 0, y: -5 }}
