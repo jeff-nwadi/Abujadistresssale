@@ -130,3 +130,9 @@
   background-size: cover;
   width: 100%;
 }
+
+
+body {
+  font-family: var(--font-dm-sans);
+  
+}
