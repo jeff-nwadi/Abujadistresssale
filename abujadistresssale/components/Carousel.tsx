@@ -24,8 +24,11 @@ const Carousel = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
                 viewport={{ once: true }}
-            >
-                <h2 className='text-muted-foreground text-2xl md:text-3xl'>@abujads</h2>
+            > 
+                <h2 className='text-muted-foreground text-2xl md:text-3xl'>
+
+ @abjdistresssales
+</h2>
             </motion.div>
             </motion.div>
       <TestimonialsCarousel />

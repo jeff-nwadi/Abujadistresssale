@@ -1,14 +1,13 @@
 'use client'
 
 import Link from 'next/link'
-import React from 'react'
-import myVideo from '../videos/boy.mp4'; 
-import Video from 'next-video';
 import { Button } from './ui/button';
 import { motion } from "motion/react"
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
 import { ArrowUpRight } from 'lucide-react';
+import Image from 'next/image';
+import Logo from "../public/Main.png"
 
 
 const Header = () => {
@@ -18,9 +17,9 @@ const Header = () => {
         <main className="min-h-screen">
         {/* NAV */}
         <div className=' hero-section '>
-            <div className="w-full flex justify-between items-center lg:px-33 lg:py-20 sm:px-12 py-6 z-10">
+            <div className="w-full flex justify-between items-center lg:px-33 lg:py-20 sm:px-12 py-6 z-10 px-8">
                 <h2 className="uppercase text-white font-bold text-xl sm:text-3xl z-10">
-                Logo
+               <Image src = {Logo} alt='logo' height={40} width={100}></Image>
                 </h2>
 
                 <ul className="hidden sm:flex gap-6 text-white font-medium text-sm sm:text-lg z-10">
@@ -37,7 +36,7 @@ const Header = () => {
 
             {/* HERO TEXT */}
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 z-10">
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl text-white font-semibold max-w-3xl">
+                <h1 className="text-3xl sm:text-5xl lg:text-7xl text-white font-semibold max-w-3xl">
                 Smart Investors Buy Distress
                 </h1>
 
