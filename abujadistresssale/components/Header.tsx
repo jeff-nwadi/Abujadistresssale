@@ -57,7 +57,8 @@ const Header = () => {
                 </motion.div>
                 </Button>
             </div>
-            <div className='bg-[#00000080] h-full w-full absolute inset-0 '></div>
+            <div className="absolute inset-0 w-full h-full bg-black/50 sm:bg-black/40 md:bg-black/30 lg:bg-black/20"></div>
+
          </div>
         </main>
  
