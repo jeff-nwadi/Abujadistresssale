@@ -14,7 +14,7 @@ const Carousel = () => {
             viewport={{ once: true }}
             className="mb-16 flex justify-between items-center px-4 sm:px-12 "
             >
-            <h1 className="from-foreground to-foreground/40 mb-4 bg-gradient-to-b bg-clip-text text-3xl font-bold text-transparent md:text-5xl lg:text-6xl ">
+            <h1 className="from-foreground to-foreground/40 mb-4 bg-linear-to-b bg-clip-text text-3xl font-bold text-transparent md:text-5xl lg:text-6xl ">
                 Follow us
             </h1>
 
@@ -25,7 +25,7 @@ const Carousel = () => {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 viewport={{ once: true }}
             > 
-                <h2 className='text-muted-foreground text-2xl md:text-3xl'>
+                <h2 className='text-muted-foreground text-lg md:text-3xl'>
 
  @abjdistresssales
 </h2>

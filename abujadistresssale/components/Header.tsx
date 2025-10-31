@@ -11,15 +11,14 @@ import Logo from "../public/Main.png"
 
 
 const Header = () => {
-   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
         <main className="min-h-screen">
         {/* NAV */}
         <div className=' hero-section '>
-            <div className="w-full flex justify-between items-center lg:px-33 lg:py-20 sm:px-12 py-6 z-10 px-8">
+            <div className="w-full flex justify-between items-center lg:px-33 lg:py-16 sm:px-12 py-6 z-10 px-8">
                 <h2 className="uppercase text-white font-bold text-xl sm:text-3xl z-10">
-               <Image src = {Logo} alt='logo' height={40} width={100}></Image>
+                    <Image src = {Logo.src} alt='logo' height={30} width={100}></Image>
                 </h2>
 
                 <ul className="hidden sm:flex gap-6 text-white font-medium text-sm sm:text-lg z-10">

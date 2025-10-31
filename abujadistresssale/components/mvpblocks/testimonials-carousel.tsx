@@ -117,11 +117,11 @@ export default function TestimonialsCarousel({
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="border-border from-secondary/20 to-card relative h-full w-fit rounded-2xl border bg-gradient-to-b p-6 shadow-md backdrop-blur-sm"
+                  className="border-border from-secondary/20 to-card relative h-full w-fit rounded-2xl border bg-linear-to-b p-6 shadow-md backdrop-blur-sm"
                 >
                   {/* Enhanced decorative gradients */}
-                  <div className="from-primary/15 to-card absolute -top-5 -left-5 -z-10 h-40 w-40 rounded-full bg-gradient-to-b blur-md" />
-                  <div className="from-primary/10 absolute -right-10 -bottom-10 -z-10 h-32 w-32 rounded-full bg-gradient-to-t to-transparent opacity-70 blur-xl" />
+                  <div className="from-primary/15 to-card absolute -top-5 -left-5 -z-10 h-40 w-40 rounded-full bg-linear-to-b blur-md" />
+                  <div className="from-primary/10 absolute -right-10 -bottom-10 -z-10 h-32 w-32 rounded-full bg-linear-to-t to-transparent opacity-70 blur-xl" />
 
                   <motion.div
                     initial={{ opacity: 0, y: -5 }}
@@ -172,7 +172,7 @@ export default function TestimonialsCarousel({
                         </p>
                         {testimonial.role && (
                           <>
-                            <span className="text-muted-foreground flex-shrink-0">
+                            <span className="text-muted-foreground shrink-0">
                               •
                             </span>
                             <p className="text-muted-foreground text-sm whitespace-nowrap">
