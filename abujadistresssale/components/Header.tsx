@@ -39,11 +39,13 @@ const Header = () => {
                 Where Strategy Meets Storytelling.
                 </h1>
 
-                <p className="text-white font-light mt-3 text-sm sm:text-base max-w-xl">
-              Sales, consultancy, and media crafted to elevate brands and spark real growth.
+                <p className="text-white font-light mt-3 text-md sm:text-base max-w-xl">
+                    Sales, consultancy, and media crafted to elevate brands and spark real growth.
                 </p>
 
-                <Button className="mt-6 rounded-full hover:bg-[#A2EE2F]/80 bg-[#A2EE2F] text-[#243C00] font-semibold flex items-center gap-2 px-5 sm:px-7 py-3 sm:py-4 text-xs sm:text-base">
+                <Button className="mt-6 rounded-full hover:bg-[#A2EE2F]/80
+                 bg-[#A2EE2F] text-[#243C00] font-semibold flex items-center
+                  gap-2 px-5 sm:px-7 py-3 sm:py-4 text-xs sm:text-base">
                 <Link href="#">
                     <span className="uppercase tracking-wide">
                     View work
@@ -57,11 +59,9 @@ const Header = () => {
                 </motion.div>
                 </Button>
             </div>
-            <div className="absolute inset-0 w-full h-full bg-black/50 sm:bg-black/40 md:bg-black/30 lg:bg-black/20"></div>
-
+            <div className="absolute inset-0 w-full h-screen bg-black/50 sm:bg-black/40 md:bg-black/30 lg:bg-black/20"></div>
          </div>
         </main>
- 
   )
 }
 

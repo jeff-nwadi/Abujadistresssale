@@ -25,7 +25,7 @@ export default function Feature1() {
                 and we confirm that we do our due diligence on each product to the comfort of the seller and the would be buyer.
 
               </p>
-              <Link href="#" className="flex gap-3 items-center mt-10">
+              <Link href="#" className="flex gap-3 items-center mt-33">
                 <div className="bg-[#FFECB3] rounded-full p-2">
                   <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 text-2xl" />
                 </div>
