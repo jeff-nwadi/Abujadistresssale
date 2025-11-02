@@ -7,6 +7,8 @@ import woman from "./images/Call-center.png";
 import { ArrowUpRight, Locate, Mail, Phone } from "lucide-react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
+import { Button } from "@/components/ui/button"
+import { motion } from "framer-motion";
 
 export default function Feature1() {
   return (
@@ -15,7 +17,12 @@ export default function Feature1() {
         <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
           {/* Section 1 */}
           <li className="col-span-2 flex flex-col-reverse lg:flex-row-reverse gap-4">
-            <div className="bg-[#064420] p-6 md:p-12 rounded-3xl flex-1">
+            <motion.div 
+              initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                viewport={{ once: true }}
+            className="bg-[#064420] p-6 md:p-12 rounded-3xl flex-1">
               <h2 className="py-3 text-4xl sm:text-5xl font-medium text-[#FFD700]">
                 About us
               </h2>
@@ -26,14 +33,21 @@ export default function Feature1() {
                 and we confirm that we do our due diligence on each product to the comfort of the seller and the would be buyer.
 
               </p>
-              <Link href="#" className="flex gap-3 items-center mt-33">
+
+              <Link href="#" className="flex gap-3 items-center mt-33 ">
                 <div className="bg-[#FFECB3] rounded-full p-2">
                   <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 text-2xl" />
                 </div>
                 <p className="uppercase text-[#FFECB3]">Read more</p>
               </Link>
-            </div>
-            <div className="relative flex-1 h-[50vh] sm:h-[70vh] lg:h-[80vh]">
+            </motion.div>
+            
+            <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                viewport={{ once: true }}
+            className="relative flex-1 h-[50vh] sm:h-[70vh] lg:h-[80vh]">
               <Image
                 src={lady.src}
                 alt="lady"
@@ -42,12 +56,17 @@ export default function Feature1() {
                 quality={100}
                 priority
               />
-            </div>
+            </motion.div>
           </li>
 
           {/* Section 2 */}
           <li className="col-span-2 flex flex-col-reverse md:flex-row-reverse gap-4">
-            <div className="relative flex-1 h-[50vh] sm:h-[70vh] lg:h-[80vh]">
+            <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                viewport={{ once: true }}
+            className="relative flex-1 h-[50vh] sm:h-[70vh] lg:h-[80vh]">
               <Image
                 src={artistic.src}
                 alt="artistic"
@@ -56,8 +75,13 @@ export default function Feature1() {
                 quality={100}
                 priority
               />
-            </div>
-            <div className="bg-[#064420] p-6 md:p-12 rounded-3xl flex-1">
+            </motion.div>
+            <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                viewport={{ once: true }}
+            className="bg-[#064420] p-6 md:p-12 rounded-3xl flex-1">
               <h2 className="py-3 text-4xl sm:text-5xl font-medium text-[#FFD700]">
                 Services 
               </h2>
@@ -77,12 +101,17 @@ export default function Feature1() {
                 </div>
                 <p className="uppercase text-[#FFECB3]">Our services</p>
               </Link>
-            </div>
+            </motion.div>
           </li>
 
           {/* Section 3 */}
           <li className="col-span-2 flex flex-col-reverse lg:flex-row-reverse gap-4">
-            <div className="bg-[#064420] p-6 md:p-12 rounded-3xl flex-1">
+            <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                viewport={{ once: true }}
+            className="bg-[#064420] p-6 md:p-12 rounded-3xl flex-1">
               <h2 className="py-3 text-4xl sm:text-5xl font-medium text-[#FFD700]">
                 Contact us
               </h2>
@@ -92,7 +121,7 @@ export default function Feature1() {
               </p>
                <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-2">
                 <span> <Phone /> </span>
-                 +2347010050028
+                <Link href=" https://wa.me/2347010050028">+2347010050028</Link>
               </p>
            
                  <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-6">
@@ -110,8 +139,13 @@ export default function Feature1() {
                       <p>kenneth@abujadistresssale.com</p>
                      </div>    
                  </div>
-            </div>
-            <div className="relative flex-1 h-[50vh] sm:h-[70vh] lg:h-[80vh]">
+            </motion.div>
+            <motion.div 
+              initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                viewport={{ once: true }}
+            className="relative flex-1 h-[50vh] sm:h-[70vh] lg:h-[80vh]">
               <Image
                 src={woman.src}
                 alt="woman"
@@ -120,7 +154,7 @@ export default function Feature1() {
                 quality={100}
                 priority
               />
-            </div>
+            </motion.div>
           </li>
         </ul>
       </div>
