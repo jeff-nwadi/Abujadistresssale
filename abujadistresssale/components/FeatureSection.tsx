@@ -121,7 +121,7 @@ export default function Feature1() {
               </p>
                <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-2">
                 <span> <Phone /> </span>
-                <Link href="https://wa.me/2347010050028">+2347010050028</Link>
+                <Link href="https://wa.me/2349132378588">+2349132378588</Link>
               </p>
            
                  <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-6">
