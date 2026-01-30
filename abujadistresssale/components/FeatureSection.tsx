@@ -121,13 +121,13 @@ export default function Feature1() {
               </p>
                <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-2">
                 <span> <Phone /> </span>
-                <Link href=" https://wa.me/2347010050028">+2347010050028</Link>
+                <Link href="https://wa.me/2347010050028">+2347010050028</Link>
               </p>
            
                  <p className="pt-4 text-base sm:text-2xl text-[#FFECB3] flex items-center gap-6">
                   <Link href="https://www.instagram.com/abjdistresssale/"><FaInstagram /></Link>
-                  <Link href=""> <FaTwitter /></Link>
-                  <Link href=""> <FaFacebook /></Link>
+                  <Link href="https://x.com/abjdistresssale"> <FaTwitter /></Link>
+                  <Link href=" https://web.facebook.com/profile.php?id=61583013623540"> <FaFacebook /></Link>
                  </p>
 
                  <div className="pt-16 text-base sm:text-lg text-[#FFECB3]">
